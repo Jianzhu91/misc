@@ -1,5 +1,5 @@
 #! /usr/bin/env python
-"""Name---Jian Zhu, Andrew ID----jianzhu"""
+"""Name---Jian Zhu"""
 
 # from HTMLParser import HTMLParser
 from urllib2 import urlopen
