@@ -1,5 +1,5 @@
 #! /usr/bin/env python
-"""Name---Jian Zhu, Andrew ID----jianzhu"""
+"""Name---Jian Zhu"""
 
 import os
 from boto.ec2.connection import EC2Connection
