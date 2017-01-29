@@ -1,0 +1,173 @@
+; 2015-09-26T18:55:52+0000
+; Horizontal Scaling Test
+; isTestingThroughCode=true
+; Test launched. Please check every minute for update.
+; Your goal is too achieve rps=4000 in 30 min
+; Minimal interval of adding instances is 100 sec
+[Test]
+type=horizontal
+testId=1443293752325
+testFile=test.1443293752325.log
+
+[Minute 1]
+ec2-54-152-218-205.compute-1.amazonaws.com=558.01
+
+[Minute 2]
+ec2-54-152-218-205.compute-1.amazonaws.com=715.05
+
+[Minute 3]
+ec2-54-152-218-205.compute-1.amazonaws.com=713.80
+
+[Minute 4]
+ec2-54-152-218-205.compute-1.amazonaws.com=717.44
+
+[Minute 5]
+ec2-54-152-218-205.compute-1.amazonaws.com=717.28
+ec2-54-85-182-75.compute-1.amazonaws.com=539.95
+
+[Minute 6]
+ec2-54-152-218-205.compute-1.amazonaws.com=719.19
+ec2-54-85-182-75.compute-1.amazonaws.com=713.38
+
+[Minute 7]
+ec2-54-152-218-205.compute-1.amazonaws.com=719.23
+ec2-54-85-182-75.compute-1.amazonaws.com=711.13
+
+[Minute 8]
+ec2-54-152-218-205.compute-1.amazonaws.com=658.88
+ec2-54-85-182-75.compute-1.amazonaws.com=711.74
+ec2-52-23-194-73.compute-1.amazonaws.com=548.68
+
+[Minute 9]
+ec2-54-152-218-205.compute-1.amazonaws.com=656.13
+ec2-54-85-182-75.compute-1.amazonaws.com=713.33
+ec2-52-23-194-73.compute-1.amazonaws.com=713.52
+
+[Minute 10]
+ec2-54-152-218-205.compute-1.amazonaws.com=660.29
+ec2-54-85-182-75.compute-1.amazonaws.com=711.42
+ec2-52-23-194-73.compute-1.amazonaws.com=709.71
+
+[Minute 11]
+ec2-54-152-218-205.compute-1.amazonaws.com=719.47
+ec2-54-85-182-75.compute-1.amazonaws.com=569.41
+ec2-52-23-194-73.compute-1.amazonaws.com=711.83
+ec2-52-23-206-165.compute-1.amazonaws.com=469.27
+
+[Minute 12]
+ec2-54-152-218-205.compute-1.amazonaws.com=718.07
+ec2-54-85-182-75.compute-1.amazonaws.com=610.88
+ec2-52-23-194-73.compute-1.amazonaws.com=712.61
+ec2-52-23-206-165.compute-1.amazonaws.com=695.09
+
+[Minute 13]
+ec2-54-152-218-205.compute-1.amazonaws.com=720.00
+ec2-54-85-182-75.compute-1.amazonaws.com=654.60
+ec2-52-23-194-73.compute-1.amazonaws.com=714.11
+ec2-52-23-206-165.compute-1.amazonaws.com=689.88
+
+[Minute 14]
+ec2-54-152-218-205.compute-1.amazonaws.com=718.97
+ec2-54-85-182-75.compute-1.amazonaws.com=666.28
+ec2-52-23-194-73.compute-1.amazonaws.com=714.74
+ec2-52-23-206-165.compute-1.amazonaws.com=680.57
+
+[Minute 15]
+ec2-54-152-218-205.compute-1.amazonaws.com=717.80
+ec2-54-85-182-75.compute-1.amazonaws.com=714.12
+ec2-52-23-194-73.compute-1.amazonaws.com=662.23
+ec2-52-23-206-165.compute-1.amazonaws.com=618.42
+ec2-54-152-13-33.compute-1.amazonaws.com=556.53
+
+[Minute 16]
+ec2-54-152-218-205.compute-1.amazonaws.com=719.97
+ec2-54-85-182-75.compute-1.amazonaws.com=713.18
+ec2-52-23-194-73.compute-1.amazonaws.com=662.79
+ec2-52-23-206-165.compute-1.amazonaws.com=583.73
+ec2-54-152-13-33.compute-1.amazonaws.com=720.88
+
+[Minute 17]
+ec2-54-152-218-205.compute-1.amazonaws.com=719.42
+ec2-54-85-182-75.compute-1.amazonaws.com=713.40
+ec2-52-23-194-73.compute-1.amazonaws.com=667.23
+ec2-52-23-206-165.compute-1.amazonaws.com=617.76
+ec2-54-152-13-33.compute-1.amazonaws.com=723.78
+
+[Minute 18]
+ec2-54-152-218-205.compute-1.amazonaws.com=717.70
+ec2-54-85-182-75.compute-1.amazonaws.com=713.66
+ec2-52-23-194-73.compute-1.amazonaws.com=712.60
+ec2-52-23-206-165.compute-1.amazonaws.com=615.68
+ec2-54-152-13-33.compute-1.amazonaws.com=723.32
+ec2-52-23-208-90.compute-1.amazonaws.com=542.57
+
+[Load Generator]
+awsId=935341277522
+andrewId=jianzhu
+amiId=ami-4389fb26
+instanceId=i-4a162be9
+instanceType=m3.medium
+publicHostname=ec2-54-152-150-24.compute-1.amazonaws.com
+ipAddress=54.152.150.24
+passwd=b8WZeZzBXgyJAmAoYVrIGbxpQ2w1U92a
+
+[Data Center 0]
+instanceType=m3.medium
+andrewId=jianzhu
+instanceId=i-e7102d44
+amiId=ami-abb8cace
+publicHostname=ec2-54-152-218-205.compute-1.amazonaws.com
+ipAddress=54.152.218.205
+awsId=935341277522
+
+[Data Center 1]
+instanceType=m3.medium
+andrewId=jianzhu
+instanceId=i-4e122fed
+amiId=ami-abb8cace
+publicHostname=ec2-54-85-182-75.compute-1.amazonaws.com
+ipAddress=54.85.182.75
+awsId=935341277522
+
+[Data Center 2]
+instanceType=m3.medium
+andrewId=jianzhu
+instanceId=i-500e33f3
+amiId=ami-abb8cace
+publicHostname=ec2-52-23-194-73.compute-1.amazonaws.com
+ipAddress=52.23.194.73
+awsId=935341277522
+
+[Data Center 3]
+instanceType=m3.medium
+andrewId=jianzhu
+instanceId=i-1c0b36bf
+amiId=ami-abb8cace
+publicHostname=ec2-52-23-206-165.compute-1.amazonaws.com
+ipAddress=52.23.206.165
+awsId=935341277522
+
+[Data Center 4]
+instanceType=m3.medium
+andrewId=jianzhu
+instanceId=i-c2073a61
+amiId=ami-abb8cace
+publicHostname=ec2-54-152-13-33.compute-1.amazonaws.com
+ipAddress=54.152.13.33
+awsId=935341277522
+
+[Data Center 5]
+instanceType=m3.medium
+andrewId=jianzhu
+instanceId=i-87fdc024
+amiId=ami-abb8cace
+publicHostname=ec2-52-23-208-90.compute-1.amazonaws.com
+ipAddress=52.23.208.90
+awsId=935341277522
+
+; MSB is validating...
+; MSB congratulates you on completing horizontal scaling test!
+; You have achieved your goal in 18 minutes.
+; Have you noticed that the load varies across different instances?
+; Test finished
+Your submission is received, the token is CD15619Pp21AIDjianzhuTM20150926151418431. Wait and check tpz for the score. 

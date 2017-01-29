@@ -1,0 +1,71 @@
+; 2015-09-26T19:47:59+0000
+; Elastic Load Balancer Test
+; Test launched. Please check every minute for update.
+[Test]
+type=elb
+testId=1443296879485
+testFile=test.1443296879485.log
+
+[Minute 1]
+rps=1501.15
+
+[Minute 2]
+rps=1524.35
+
+[Minute 3]
+rps=2104.18
+
+[Minute 4]
+rps=1519.03
+
+[Minute 5]
+rps=2140.81
+
+[Minute 6]
+rps=1503.06
+
+[Minute 7]
+rps=2082.88
+
+[Minute 8]
+rps=2080.93
+
+[Minute 9]
+rps=2071.33
+
+[Minute 10]
+rps=2103.77
+
+[Minute 11]
+rps=1515.22
+
+[Minute 12]
+rps=1510.94
+
+[Minute 13]
+rps=2037.63
+
+[Minute 14]
+rps=1522.74
+
+[Minute 15]
+rps=2102.46
+
+[Load Generator]
+awsId=935341277522
+andrewId=jianzhu
+amiId=ami-4389fb26
+instanceId=i-4a162be9
+instanceType=m3.medium
+publicHostname=ec2-54-152-150-24.compute-1.amazonaws.com
+ipAddress=54.152.150.24
+passwd=b8WZeZzBXgyJAmAoYVrIGbxpQ2w1U92a
+
+[Elastic Load Balancer]
+dns=elbjianhu-465323054.us-east-1.elb.amazonaws.com
+
+; MSB is validating...
+; Your rps = 1844.238037 seems too low. Please try again if you have budget left.
+; Please be sure that ELB is connected to all instances you launched in Manual Scaling Test.
+; Please make sure all instances connected are healthy.
+; Test finished
